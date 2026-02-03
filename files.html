@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Your Files</h1>
+    <ul>
+        {% for file in files %}
+            <li>{{ file.name }} <a href="/download/{{ file.id }}/{{ file.name }}">Download</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
