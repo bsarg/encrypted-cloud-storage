@@ -1,6 +1,6 @@
 # Encrypted Cloud Storage
 
-A small Flask app that encrypts files locally with Fernet before uploading them to Google Drive, and decrypts files after download. Intended as a simple educational/demo project for secure uploads/downloads.
+A small Flask app that encrypts files locally with Fernet before uploading them to Google Drive (Intended for NextCloud), and decrypts files after download. Intended as a simple educational/demo project for secure uploads/downloads.
 
 ## Quick Start
 
